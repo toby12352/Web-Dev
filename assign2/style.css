@@ -1,0 +1,187 @@
+/* 
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Tun Aung Thaung
+ * email: thaungt@oregonstate.edu
+ */
+
+header{
+    column-fill : balance;
+    display : flex;
+    align-items : center;
+    background-color: black;
+    height : 200px;
+    margin : -10px;
+}
+
+header img{
+    width : auto;
+    height : auto;
+    background-color: black;
+}
+
+h1 a{
+    text-decoration: none;
+    color : white;
+    font-family : 'Roboto Slab';
+    font-weight : normal;
+    font-size : 80px;
+}
+
+.content{
+    margin-top : 20px;
+    font-family : 'Roboto Slab';
+    font-weight : normal;
+    display : flex;
+}
+
+.filter-container{
+    background-color : lightgrey;
+    width : 250px;
+    height : 380px;
+    border-radius : 4px;
+}
+
+h2{
+    font-weight : bolder;
+    margin-left : 10px;
+    margin-top : 5px;
+}
+
+.filter-input-container{
+    display : flex;
+    background-color : lightgrey;
+    width : 250px;
+}
+
+label{
+    margin-left : 10px;
+    font-weight : bold;
+    margin-top : 10px;
+}
+
+#filter-text{
+    margin-left : 10px;
+    border : 0.5px;
+    border-radius : 3px;
+    margin-top : 13px;
+    width : 170px;
+}
+
+#filter-min-price, #filter-max-price {
+    margin-left : 10px;
+    border : 0.5px;
+    border-radius : 3px;
+    width : 73px;
+    margin-top : 13px;
+}
+
+#filter-city{
+    border : 0.5px;
+    margin-left : 14px;
+    border-radius: 3px;
+    width : 175px;
+    margin-top : 13px;
+}
+
+fieldset{
+    margin-left: 10px;
+    width : 190px;
+    font-weight : bold;
+    margin-top : 10px;
+}
+
+#filter-update-button{
+    margin-top : 10px;
+    margin-left : 10px;
+    width : 218px;
+    height : 40px;
+    font-family : 'Roboto Slab';
+    font-size : 20px;
+    background-color : black;
+    color : white;
+    font-weight : bold;
+}
+
+#filter-update-button:hover{
+    cursor : pointer;
+    background-color : rgb(255, 203, 143);
+    color : black;
+}
+
+section{
+    display : flex;
+    flex-wrap : wrap;
+    margin-left : 10px;
+    border-radius : 4px;
+    justify-content: space-around;
+}
+
+.post{
+    margin-left : 10px;
+    border : 1px solid lightgrey;
+    border-radius : 4px;       
+    margin-bottom : 10px;
+    display : flex;
+    flex-flow : row;
+    flex-wrap : wrap;
+    max-width : 280px;
+    max-height : 300px;
+    min-width : 280px;
+    min-height : 300px;
+}
+
+img{
+    width : auto;
+    height : auto;
+    max-width : 250px;
+    max-height : 200px;
+    min-width : 250px;
+    min-height : 200px;
+    margin : 5px 5px 5px 5px;
+    margin-left : 15px;
+}
+
+.post-title{
+    color: orange;
+    text-decoration: none;
+    display : flex;
+    align-items: center;
+}
+
+.post-info-container{
+    font-family : 'Roboto Slab';
+}
+
+.post-info-container:hover a{
+    text-decoration: underline;
+}
+
+.post-price{
+    border : 1.5px solid rgb(136, 136, 136);
+    border-radius : 5px;
+    background-color:whitesmoke;
+}
+
+#sell-something-button{
+    width : 40px;
+    height: 40px;
+    background-color: darkorange;
+    box-shadow: 2px 2px 5px rgba(28, 14, 3, 1);
+    border-radius : 50px;
+    text-align : center;
+    right : 20px;
+    bottom : 30px;
+    position : fixed;
+    color : white;
+    font-size : 25px;
+    border : 1px;
+}
+
+#sell-something-button:hover{
+    cursor: pointer;
+    font-size: 40px;
+    width : 50px;
+    height : 50px;
+}
